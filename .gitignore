@@ -39,3 +39,9 @@ npm-debug.log
 *.db
 *.db-*
 
+# Ignore Apple generated .DS_Store file
+.DS_Store
+
+# Visual Studio Code Elixir LS build artifacts
+.elixir_ls/
+
