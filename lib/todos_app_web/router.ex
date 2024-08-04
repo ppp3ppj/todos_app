@@ -19,7 +19,8 @@ defmodule TodosAppWeb.Router do
 
     get "/", PageController, :home
 
-    get "/todos", PageController, :hello
+    resources "/todos", TodoController
+    #get "/todos", PageController, :hello
   end
 
 
