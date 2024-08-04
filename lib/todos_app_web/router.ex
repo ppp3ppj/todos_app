@@ -18,7 +18,10 @@ defmodule TodosAppWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+
+    get "/todos", PageController, :hello
   end
+
 
   # Other scopes may use custom stacks.
   # scope "/api", TodosAppWeb do
